@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      article {
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
+  </head>
+  <body>
+    <form class="form-create-pokemon">
+      <label>
+        Create a Pokémon:
+        <input
+          id="pokemon-name"
+          type="text"
+          value=""
+          placeholder="Pokémon's name"
+        />
+      </label>
+      <input id="bt-create-pokemon" type="submit" value="Create" />
+    </form>
+    <br />
+    <article class="pokemon-list">
+      <button class="btPokemon" id="pokemon0" type="button">Salamèche</button>
+      <button class="btPokemon" id="pokemon1" type="button">Pikachu</button>
+      <button class="btPokemon" id="pokemon2" type="button">Zarby</button>
+      <button class="btPokemon" id="pokemon3" type="button">Psykokwak</button>
+      <button class="btPokemon" id="pokemon4" type="button">Métamorph</button>
+    </article>
+    <script src="./main.js"></script>
+  </body>
+</html>
